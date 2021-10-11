@@ -2,16 +2,34 @@
 <html>
     <head>
       <style>
-          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
             * {
                 box-sizing: border-box;
                 margin: 0;
                 padding: 0;
             }
+
             .section_intro{
                 background-color: #5F5F5F;
                 height: 1000px;
+            }
+
+            .main_intro{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .main_intro p{
+                margin-top: 175px;
+                font-size: 200px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                background: linear-gradient(to right, #00FFFF 0%, #D700FA 50%, #FFCB13 100%);
+                -webkit-background-clip: text;
+	            -webkit-text-fill-color: transparent;
+                filter:drop-shadow(5px 8px 6px rgba(0, 0, 0, 1));
+                letter-spacing: 0.1em;
             }
 
             .navbar{
@@ -22,9 +40,8 @@
                 align-items: center;
                 font-size: 2rem;
                 top: 0;
-                position: sticky;
                 z-index: 999;
-                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                position: sticky;
             }
 
             .navbar_container{
@@ -53,14 +70,12 @@
                 list-style: none;
                 text-align: center;
                 height: 100%;
-
-
             }
 
             .navbar_links ul, li, a {
                 font-size: 16px;
                 font-family: 'Poppins', sans-serif;
-                font-weight: 600;
+                font-weight: 400;
                 text-decoration: none;
                 color: white;
                 padding: 0 0.5rem;
@@ -68,15 +83,12 @@
                 text-transform: uppercase;
                 letter-spacing: 0.10em;
                 display: inline-block;
-
+                transition: text-shadow 0.5s;
             }
 
-            .navbar_links ul, li{
+            .navbar_links li{
                 display: table-cell;
-
             }
-
-
 
             .navbar_links a:after {
                 background: none repeat scroll 0 0 transparent;
@@ -89,18 +101,22 @@
                 background: #fff;
                 transition: width 0.3s ease 0s, left 0.3s ease 0s;
                 width: 0;
-
             }
+
             .navbar_links a:hover:after { 
                 width: 100%; 
                 left: 0;  
             }
+
             .navbar_links a:hover{
                 text-shadow: 3px 3px 4px rgba(0,0,0,.40);
             }
+
+
+
       </style>
     </head>
-    
+
     <body>
         <nav class="navbar">
             <div class="navbar_container">
@@ -118,7 +134,9 @@
 
         <div id="content">
             <div class="section_intro">
-                <h2>Intro</h2>
+                <div class="main_intro">
+                    <p>INTRO</p>
+                </div>
             </div>
             
             <div class="section_desc">
