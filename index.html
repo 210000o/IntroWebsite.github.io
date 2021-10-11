@@ -1,16 +1,119 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <style>
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            .section_intro{
+                background-color: #5F5F5F;
+                height: 1000px;
+            }
+
+            .navbar{
+                background: #0ECFEA;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2rem;
+                top: 0;
+                position: sticky;
+                z-index: 999;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+
+            .navbar_container{
+                display: flex;
+                justify-content: space-between;
+                height: 80px;
+                z-index: 1;
+                width: 100%;
+                margin: 0 auto;
+                padding: 0 50px;
+            }
+
+            #navbar_logo {
+                width: 80px;
+                height: 80px;
+                background: none;
+                background-size: 100%;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .navbar_links{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                text-align: center;
+                height: 100%;
+
+
+            }
+
+            .navbar_links ul, li, a {
+                font-size: 16px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+                text-decoration: none;
+                color: white;
+                padding: 0 0.5rem;
+                position: relative;
+                text-transform: uppercase;
+                letter-spacing: 0.10em;
+                display: inline-block;
+
+            }
+
+            .navbar_links ul, li{
+                display: table-cell;
+
+            }
+
+
+
+            .navbar_links a:after {
+                background: none repeat scroll 0 0 transparent;
+                bottom: 1;
+                content: "";
+                display: block;
+                height: 2px;
+                left: 50%;
+                position: absolute;
+                background: #fff;
+                transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                width: 0;
+
+            }
+            .navbar_links a:hover:after { 
+                width: 100%; 
+                left: 0;  
+            }
+            .navbar_links a:hover{
+                text-shadow: 3px 3px 4px rgba(0,0,0,.40);
+            }
+      </style>
     </head>
+    
     <body>
         <nav class="navbar">
             <div class="navbar_container">
-                <a href="#HOME" id="navbar_logo">Intro</a>
-                <a href="#PRODUCT" id="navbar_product">Product</a>
-                <a href="#PRICES" id="navbar_prices">Prices</a>
-                <a href="#TEAM" id="navbar_team">Team</a>
-                <a href="#CONTACTUS" id="navbar_contactus">Contact Us</a>
+                  <img id="navbar_logo" src="https://bestanimations.com/media/computers/141522378funny-computer-animated-gif-27.gif#.YWR7_3icZQQ.link">
+                    <ul class="navbar_links">
+                      <li><a href="#PRODUCT" id="navbar_product">Product</a></li>
+                      <li><a href="#PRICES" id="navbar_prices">Prices</a></li>
+                      <li><a href="#TEAM" id="navbar_team">Team</a></li>
+                      <li><a href="#CONTACTUS" id="navbar_contactus">Contact Us</a></li>
+                  </ul>
+     
             </div>
+            
         </nav>
 
         <div id="content">
@@ -25,7 +128,7 @@
             </div>
         </div>
 
-        <div id="footer" class="section">
+        <div class="footer">
             Footer
         </div>
     </body>
