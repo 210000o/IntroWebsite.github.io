@@ -2,39 +2,20 @@
 <html>
     <head>
       <style>
+          
           @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
-            * {
+            
+          * {
                 box-sizing: border-box;
                 margin: 0;
                 padding: 0;
             }
 
-            .section_intro{
-                background-color: #5F5F5F;
-                height: 1000px;
-            }
-
-            .main_intro{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .main_intro p{
-                margin-top: 175px;
-                font-size: 200px;
-                font-family: 'Source Sans Pro', sans-serif;
-                font-style: normal;
-                font-weight: 400;
-                background: linear-gradient(to right, #00FFFF 0%, #D700FA 50%, #FFCB13 100%);
-                -webkit-background-clip: text;
-	            -webkit-text-fill-color: transparent;
-                filter:drop-shadow(5px 8px 6px rgba(0, 0, 0, 1));
-                letter-spacing: 0.1em;
-            }
+/*NAVBAR*/
 
             .navbar{
                 background: #0ECFEA;
-                height: 80px;
+                height: 75px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -47,11 +28,11 @@
             .navbar_container{
                 display: flex;
                 justify-content: space-between;
-                height: 80px;
+                height: 75px;
                 z-index: 1;
                 width: 100%;
                 margin: 0 auto;
-                padding: 0 50px;
+                padding: 0px 30px;
             }
 
             #navbar_logo {
@@ -112,10 +93,53 @@
                 text-shadow: 3px 3px 4px rgba(0,0,0,.40);
             }
 
+/*FIRST SECTION*/
+
+            .section_intro{
+                background-color: #5F5F5F;
+                height: 1000px;
+            }
+
+            .main_intro{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .main_intro p{
+                margin-top: 175px;
+                font-size: 200px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                background: linear-gradient(-45deg, #00FFFF, #D700FA, #FFCB13, #28FF3E);
+				background-size: 400% 400%;
+                -webkit-background-clip: text;
+	            -webkit-text-fill-color: transparent;
+				animation: gradient 10s ease infinite;
+				height: 40vh;
+                
+                filter:drop-shadow(6px 4px rgb(0 0 0 / 45%));
+                letter-spacing: 0.1em;
+            }
+
+                @keyframes gradient {
+	                0% {
+		                background-position: 0% 50%;
+	                    }
+	                50% {
+		                background-position: 100% 50%;
+	                    }
+	                100% {
+		                background-position: 0% 50%;
+	                    }
+                }
+
 
 
       </style>
     </head>
+
 
     <body>
         <nav class="navbar">
