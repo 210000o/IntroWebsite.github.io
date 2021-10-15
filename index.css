@@ -9,7 +9,7 @@
 /*NAVBAR*/
 
 .navbar {
-  background transparent;
+  background: transparent;
   height: 75px;
   display: flex;
   justify-content: center;
