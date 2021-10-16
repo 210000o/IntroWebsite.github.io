@@ -1,0 +1,19 @@
+#topBar{
+    background-color:#000000 ;
+    top:0px;
+    border: 1px;
+    position:sticky
+}
+
+#topBarContainer{
+    display: flex;
+    justify-content: space-between;
+    height:75px;
+    padding: 0px 30px;
+}
+
+.topBarLinks li{
+    display: inline-table;
+    float:right;
+    padding-left: 30px
+}
