@@ -1,56 +1,91 @@
 <html>
     <head>
-        <h1>PRICING</h1>
+        <link rel="styleSheet" href="Prices.css">
     </head>
 
     <body>
 
-        <div class="priceContent">
+        <nav id="topBar">
+            <div id="topBarContainer">
+                <a class="topBarLogo" href="index.html"><img src="images/IntroLogo.png" width=90px height=90px style=float:left;></a>
+                <ul class="topBarLinks">
+                    <li><a id="topBarProduct" href="products.html">Product</a></li>
+                    <li><a id="topBarTeam" href="teams.html">Team</a></li>
+                    <li><a id="topBarContactUs" href="CONTACT US">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
 
-            <div class="logoPrice">
+        <h1 id="mainTitle">PRICES</h1>
+
+        <div id="priceContent">
+            
+            <div class="priceContainer">
                 <h2>Logo</h2>
-                <p>Regular $</p>
-                <p>Professional $</p>
+                <ul>  
+                    <li>Regular <span class="money">$</span></li>
+                    <li>Professional <span class="money">$</span></li>
+                </ul>
             </div>
 
-            <div class="videoIntroPrice">
+            <div class="priceContainer">
                 <h2>Video Intro</h2>
-                <p>Basic $</p>
-                <p>Complex $</p>
+                <ul>
+                    <li>Basic <span class="money">$</span></li>
+                    <li>Complex <span class="money">$</span></li>
+                </ul>
             </div>
 
-            <div class="videoEditingPrice">
+            <div class="priceContainer">
                 <h2>Video Editing</h2>
-                <p>less than 10min $</p>
-                <p>10-30min $</p>
-                <p>30min-1h $</p>
+                <ul>
+                    <li>less than 10min <span class="money">$</span></li>
+                    <li>10-30min <span class="money">$</span></li>
+                    <li>30min-1h <span class="money">$</span></li>
+                </ul>
             </div>
+        </div>    
 
-            <div class="productReminder">
-                <p>Need help? Check out our <a href="Product Page">product page</a></p>
-                
-            </div>
-
+        <div id="productReminder">
+            <p>Need help? Check out our <a href="#Product Page">product page</a></p>
         </div>
 
-        <div class="moreInfoSection">
+        
+
+        <div id="moreInfoSection">
             <h2>More info</h2>
 
-            <div class="cancelling">
+            <div>
                 <h3>Cancelation policy</h3>
-                <p class="policy">the policy goes here</p>
+                <p>the policy goes here</p>
             </div>
 
-            <div class="comparingPrices">
+            <div>
                 <h3>Compare prices</h3>
-                <p class="priceComparison">The comparing happens here</p>
+                <p>The comparing happens here</p>
             </div>
 
-            <div class="longVids">
+            <div>
                 <h3>Videos more than 1h</h3>
-                <p class="longVidInfo">The info goes here</p>
+                <p>The info goes here</p>
             </div>
         </div>
 
     </body>
+
+    <footer>
+        <nav id="bottomBar">
+            <div id="bottomBarContainer">
+                <ul>
+                    <li><p id="copyright">©2021 Intro Inc</p></li>
+                    <li><img id="insta" src="images/insta.png" width=20px height=20px></li>
+                    <li><img id="facebook" src="images/facebook.png" width=20px height=20px></li>
+                    <li><img id="twitter" src="images/twitter symbol.png" width=20px height=20px></li>
+                    <li><a id="tAndC" href="?">Terms & Conditions</a></li>
+                    <li><a id="privP" href="?">Privacy Policy</a></li>
+                </ul>
+                
+            </div>
+        </nav> 
+    </footer>
 </html>
