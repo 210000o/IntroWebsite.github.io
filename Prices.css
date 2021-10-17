@@ -1,19 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
 #topBar{
     background-color:#000000 ;
     top:0px;
     border: 1px;
-    position:sticky
+    position:sticky;
+    box-shadow: 0px 8px 10px rgb(0 0 0 / 40%);
 }
 
 #topBarContainer{
     display: flex;
     justify-content: space-between;
     height:75px;
-    padding: 0px 30px;
+    padding-left: 10px;
+    padding-right:30px;
 }
 
-.topBarLinks li{
+.topBarLinks li {
     display: inline-table;
     float:right;
-    padding-left: 30px
+    padding-left: 30px; 
+    padding-top:10px
+}
+
+.topBarLinks a {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white ;
+    text-decoration: none;
+    padding: 0 0.5rem;
+    letter-spacing: 0.10em;
+    
+}
+
+.topBarLinks a:hover {
+    color: white;
+    text-decoration: underline;
+    text-shadow: 3px 3px 4px black;
 }
