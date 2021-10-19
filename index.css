@@ -10,6 +10,7 @@
 
 .navbar {
   height: 75px;
+  min-width: 750px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,11 +95,9 @@
 .main_container {
   margin-top: -100px;
   height: 1100px;
-  width: 100%;
   background-image: url(/images/BackgroundImage.jpeg);
   background-position: center;
   font-family: 'Source Sans Pro', sans-serif;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -147,4 +146,47 @@
   margin-top: 200px;
 	font-size: 25px;
 	letter-spacing: 0.05em;
+}
+
+/* DESCRIPTION SECTION */
+.section_desc {
+  background-image: url(/images/SectionDescImage.png);
+  background-size: cover;
+  height: 800px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.text_desc {
+  position: absolute;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 235px;
+  text-align: center;
+  min-width: 1000px;
+}
+
+.border1 {
+  height: 500px;
+  width: 1000px;
+  position: absolute;
+  margin: auto;
+  border: 3px solid red;
+  color: transparent;
+  transform: translate(200px,150px)
+}
+
+.border2 {
+  height: 600px;
+  width: 800px;
+  position: relative;
+  margin: auto;
+  border: 3px solid white;
+  color: transparent;
+  transform: translate(100px,125px)
 }
