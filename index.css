@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -143,9 +144,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 180px;
 	font-size: 25px;
 	letter-spacing: 0.05em;
+  font-weight: 200;
+  color: white;
 }
 
 /* DESCRIPTION SECTION */
@@ -153,40 +156,77 @@
   background-image: url(/images/SectionDescImage.png);
   background-size: cover;
   height: 800px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  font-size: 30px;
   color: white;
   background-repeat: no-repeat;
 }
 
-.text_desc {
+.text_desc1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
   position: absolute;
   z-index: 9;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 235px;
   text-align: center;
   min-width: 1000px;
+  transform: translate(230px,220px);
+}
+
+.text_desc2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  position: relative;
+  z-index: 9;
+  transform: translate(500px,350px);
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+.text_desc3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  position: relative;
+  z-index: 9;
+  transform: translate(530px,380px);
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 .border1 {
   height: 500px;
-  width: 1000px;
+  width: 1100px;
   position: absolute;
   margin: auto;
-  border: 3px solid red;
+  border-radius: 10px;
+  border: 6px solid white;
   color: transparent;
-  transform: translate(200px,150px)
+  transform: translate(150px,100px)
+
 }
 
 .border2 {
   height: 600px;
-  width: 800px;
-  position: relative;
+  width: 930px;
+  position: absolute;
   margin: auto;
-  border: 3px solid white;
+  border: 6px solid white;
   color: transparent;
-  transform: translate(100px,125px)
+  transform: translate(285px,65px);
+  border-radius: 10px;
+}
+
+.border_overlay {
+  height: 488px;
+  width: 918px;
+  position: absolute;
+  margin: auto;
+  background-color: rgb(0 0 0 / 50%);
+  transform: translate(291px,106px);
+  z-index: 8;
 }
