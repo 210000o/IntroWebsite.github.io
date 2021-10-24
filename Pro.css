@@ -88,3 +88,13 @@
 .navbar_links a:hover {
   text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
 }
+.search{
+font-family: cursive;
+font-size: 22px;
+text-align: center;
+}
+input[type=text]{
+align-items: center;    
+width: 139px;
+height: 32px;
+}
