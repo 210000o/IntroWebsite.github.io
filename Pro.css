@@ -29,4 +29,50 @@
   margin: 0 auto;
   padding: 0px 30px;
 }
+.Bar_links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  height: 100%;
+}
 
+.Bar_links ul, li, a {
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  padding: 0 0.75rem;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+  display: inline-block;
+  transition: text-shadow 0.5s;
+}
+
+.Bar_links li {
+  display: table-cell;
+}
+
+.Bar_links a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 1;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.Bar_links a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.Bar_links a:hover {
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
+}
