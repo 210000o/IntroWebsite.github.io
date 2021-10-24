@@ -1,0 +1,25 @@
+Overall Look and Feel of Intro
+------------------------------
+
+
+Colours
+-------
+
+Iconography
+-----------
+The main icons we will be using are the company logo and icons representing social media like the instagram, facebook and twitter icons.
+The other icons will be minimalist, but descriptive to the information they are introducing.
+
+Typography
+----------
+We are using Poppins from Google Fonts
+
+Links
+-----
+In the navigation bar, the links are plain without user interaction, having animated underline/shadow on hover.
+The other links depend on what their purpose and location are. Some have underlines all the time, others appear on hover
+
+Buttons
+-------
+
+
