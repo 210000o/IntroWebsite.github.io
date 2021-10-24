@@ -158,6 +158,7 @@
   height: 800px;
   color: white;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .text_desc1 {
@@ -166,14 +167,10 @@
   font-size: 50px;
   letter-spacing: 5px;
   word-spacing: 10px;
-  position: absolute;
+  position: relative;
   z-index: 9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-width: 1000px;
-  transform: translate(230px,220px);
+  min-width: 1500px;
+  transform: translateY(280px);
 }
 
 .text_desc2 {
@@ -182,7 +179,8 @@
   font-size: 30px;
   position: relative;
   z-index: 9;
-  transform: translate(500px,350px);
+  transform: translateY(350px);
+  min-width: 1500px;
   letter-spacing: 5px;
   word-spacing: 10px;
 }
@@ -192,8 +190,9 @@
   font-weight: 300;
   font-size: 30px;
   position: relative;
+  min-width: 1500px;
   z-index: 9;
-  transform: translate(530px,380px);
+  transform: translateY(380px);
   letter-spacing: 5px;
   word-spacing: 10px;
 }
