@@ -1,6 +1,6 @@
 Overall Look and Feel of Intro
 ------------------------------
-
+The overall look and feel should follow a calm, dark and blue theme. It is minimalist without any big colourful icons or bright, neon colours.
 
 Colours
 -------
@@ -9,6 +9,7 @@ Colours
 #032340
 #021526
 #89BAD9
+#dcdcdc
 
 Iconography
 -----------
