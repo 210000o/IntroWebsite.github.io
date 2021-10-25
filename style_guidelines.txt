@@ -1,6 +1,6 @@
 Overall Look and Feel of Intro
 ------------------------------
-The overall look and feel should follow a calm, dark and blue theme. It is minimalist without any big colourful icons or bright, neon colours.
+The overall look and feel should follow a calm, dark and blue theme. It is minimalist without any big colourful icons or bright, neon colours (other than the main page title).
 
 Colours
 -------
