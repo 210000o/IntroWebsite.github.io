@@ -9,7 +9,7 @@ body{
 /*Navigation Bar*/
 
 #topBar{
-    background-color: #89BAD9;
+    background-color: #021526;
     z-index: 1;
     top: 0px;
     border: 1px;
@@ -258,7 +258,7 @@ footer{
 }
 
 #bottomBar{
-    background-color: #89BAD9;
+    background-color: #021526;
 }
 
 #bottomBarContainer{
