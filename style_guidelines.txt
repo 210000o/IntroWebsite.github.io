@@ -27,5 +27,5 @@ The other links depend on what their purpose and location are. Some have underli
 
 Buttons
 -------
-
+Buttons are given rounded corners, with first-letter capitalized in the text. The color applied to buttons are #08428C.
 

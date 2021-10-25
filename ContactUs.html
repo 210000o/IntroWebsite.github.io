@@ -1,26 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,800&display=swap" rel="stylesheet">
+</head>
 <body>
-    <h1 id="Title">INTRO</h1>
-    <h2 id="subTitle">Contact Us</h2>
-
-    <div class="ContactInfoContainer">
-        <ul>
-            <div id="images">
-                <li><img class="Insta" src="images/insta.png" width=30px height=30px></li>
-                <li><img class="Facebook" src="images/facebook.png" width=30px height=30px></li>
-                <li><img class="Twitter" src="images/Twitter.png" width=30px height=30px></li>
-                <li><img class="Phone" src="images/phone.png" width=30px height=30px></li>
-                <li><img class="Location" src="images/house.png" width=30px height=30px></li>
-            </div>
-
-            <div id="">
-                <li><p class="Insta">Info goes here</p></li>
-                <li><p class="Facebook">Info goes here</p></li>
-                <li><p class="Titter">Info goes here</p></li>
-                <li><p class="Phone">Info goes here</p></li>
-                <li><p class="Location">Info goes here</p></li>
-            </div>
-        </ul>
+    <nav class="navbar" style="background-color: #021526;">
+        <div class="navbar_container">
+          <a href="index.html"><img id="navbar_logo" src="images/IntroLogo.png"></a>
+          <ul class="navbar_links">
+            <li><a href="products.html" id="navbar_product">Product</a></li>
+            <li><a href="Prices.html" id="navbar_prices">Prices</a></li>
+            <li><a href="teams.html" id="navbar_team">Team</a></li>
+            <li><a href="ContactUs.html" id="navbar_contactus">Contact </a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container">
+        <h1>Connect With Us</h1>
+        <p>We would love to respond to your queries and help you succeed. <br>Feel free to reach out to us!</p>
     </div>
-</body>
+    <div class="contact-box">
+        <div class="contact-left">
+            <h3>Send your request</h3>
+            <form>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Enter Name">
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" placeholder="+1 232 424 2332">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="myemail@gmail.com">
+                    </div>
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Subject">
+                    </div>
+                </div>
 
+                <label>Message</label>
+                <textarea rows="5" placeholder="Your Message"></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="contact-right">
+            <h3>Reach us</h3>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>contactus@email.com</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>+1 213 132 9842</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>University Centre Map, 85 University Street<br>
+                    Somewhere in the World<br>
+                    Room 307, Ottawa, ON, K1N 6N5
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h3>Intro</h3>
+            <p>Your one-stop shop for logo designs and video editing.</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="https://www.google.com/" target="_blank"><i class="bi bi-google"></i></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2021 Intro. designed by <span>IntroTeam</span></p>
+        </div>
+    </footer>
+</body>
+</html>
 <!--- The person who was in charge of making this page dropped out, letting us know Sunday. Therefore, this page is not entirely complete-->
