@@ -4,12 +4,13 @@
 }
 
 body {
-    background: #89BAD9;
+    background: #032340;
 }
 
 .heading {
     text-align: center;
     font-size: 65px;
+    color: rgb(255, 255, 255);
     margin: 0px;
     padding: 0px;
     padding-bottom: 20px;
@@ -27,15 +28,15 @@ body {
     background: #032340;
     margin: 2px 50px;
     border-radius: 50%;
-    border: 3px solid black;
+    border: 3px solid #021526;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: #021526;
+    box-shadow: #89BAD9;
 }
 
 .image:hover {
-    border: 3px solid #08428C;
+    border: 3px solid #b8d5e7;
 }
 
 img{
@@ -54,7 +55,7 @@ img{
     margin: 0 auto;
     margin-top: 50px;
     border-radius: 5px;
-    box-shadow: 0px 0px 50px #021526;
+    box-shadow: 0px 0px 50px #042959;
 }
 
 .profile {
