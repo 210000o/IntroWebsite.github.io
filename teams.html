@@ -1,72 +1,72 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            Teams
-        </title>
-        <link rel="stylesheet" href="teamstyle.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-      <nav class="navbar" style="background-color: #131313;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teamstyle.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Our Team</title>
+</head>
+<body>
+    <nav class="navbar" style="background-color: #021526;">
         <div class="navbar_container">
-          <img id="navbar_logo" src="/images/IntroLogo.png">
+          <a href="index.html"><img id="navbar_logo" src="images/IntroLogo.png"></a>
           <ul class="navbar_links">
-            <li><a href="#PRODUCT" id="navbar_product">Product</a></li>
+            <li><a href="products.html" id="navbar_product">Product</a></li>
             <li><a href="Prices.html" id="navbar_prices">Prices</a></li>
             <li><a href="teams.html" id="navbar_team">Team</a></li>
-            <li><a href="#CONTACTUS" id="navbar_contactus">Contact Us</a></li>
+            <li><a href="ContactUs.html" id="navbar_contactus">Contact </a></li>
           </ul>
         </div>
       </nav>
-
-      <div class="head">
-        <img src="/images/teams.jpg" alt="header image" width='100%'>
-        <h1 class="head__text" style="font-family:Oswald; text-align:center; font-size:5rem;">Meet Our Team</h1>
-      </div>
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                  <img src="/images/placeholder-image-person-jpg.jpg" alt="Person 1" style="width:100%">
-                  <div class="container">
-                    <h2>Mike Ross</h2>
-                    <p class="title">Art Director</p>
-                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p>example@example.com</p>
-                    <p><button class="button">Contact</button></p>
-                  </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                  <img src="/images/placeholder-image-person-jpg.jpg" alt="Person 2" style="width:100%">
-                  <div class="container">
-                    <h2>Mike Ross</h2>
-                    <p class="title">Art Director</p>
-                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p>example@example.com</p>
-                    <p><button class="button">Contact</button></p>
-                  </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                  <img src="/images/placeholder-image-person-jpg.jpg" alt="Person 3" style="width:100%">
-                  <div class="container">
-                    <h2>John Doe</h2>
-                    <p class="title">Designer</p>
-                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                    <p>example@example.com</p>
-                    <p><button class="button">Contact</button></p>
-                  </div>
-                </div>
-            </div>
+    <h1 class="heading">Meet the Team</h1>
+    <div class="image-container">
+        <div class="image" onclick="fetch_info(0)"><img src="images/1.png"></div>
+        <div class="image" onclick="fetch_info(1)"><img src="images/1.png"></div>
+        <div class="image" onclick="fetch_info(2)"><img src="images/1.png"></div>
+        <div class="image" onclick="fetch_info(3)"><img src="images/1.png"></div>
+        <div class="image" onclick="fetch_info(4)"><img src="images/1.png"></div>
+    </div>
+    <div class="info-container">
+        <img class="profile" id="profile" src="images/1.png">
+        <div class="info">
+            <h1 class="name" id="name">Gurjot Grewal</h1>
+            <h3 class="status" id="status">Senior Developer</h3>
+            <p class="about" id="about">
+                Gurjot Grewal is a Toronto based Senior Developer responsible for designing and building the 'Main Page' of our startup company. He has extensive experience in Software Development, logo design, and video editing. He is currently completing a BASc in Software Engineering from the University of Ottawa.
+            </p>
         </div>
-      <footer>
-        <p>Insert Footer Text and Styling here</p>
-      </footer>
-    </body>
+    </div>
+    <script>
+        function fetch_info(i){
+            let profile=["images/1.png","images/1.png","images/1.png","images/1.png","images/1.png"];
+            let name=[
+                "Gurjot Grewal",
+                "Uzair Mohiuddin",
+                "Alex Oprea",
+                "Gianni Schiappa-Godard",
+                "Bariq Talib"
+            ];
+            let status=[
+                "Senior Developer",
+                "Full-Stack Developer",
+                "Full-Stack Developer",
+                "Senior Developer",
+                "Senior Developer"
+            ];
+            let about = [
+                " is a Toronto based Senior Developer responsible for designing and building the 'Main Page' of our startup company. He has extensive experience in Software Development, logo design, and video editing. He is currently completing a BASc in Software Engineering from the University of Ottawa.",
+                " is a Toronto based Full-Stack Developer responsible for designing and building the 'Meet the Team' page of our startup company. He has extensive experience in Software Development, and Web Development. He is currently completing a BASc in Software Engineering from the University of Ottawa.",
+                " is an Ottawa based Full-Stack Developer responsible for designing and building the 'Prices' page of our startup company. She has extensive experience in Software Development, and Web Development. She is currently completing a BASc in Computer Science from the University of Ottawa.",
+                " is an Ottawa based Senior Developer responsible for designing and building the 'Contact Us' page of our startup company. He has extensive experience in Software Development, and Web Development. He is currently completing a BASc in Software Engineering from the University of Ottawa.",
+                " is an Ottawa based Senior Developer responsible for designing and building the 'Products' page of our startup company. He has extensive experience in Software Development, logo design, and video editing. He is currently completing a BASc in Software Engineering from the University of Ottawa."
+            ]
+            document.getElementById("profile").src = profile[i];
+            document.getElementById("name").innerHTML = name[i];
+            document.getElementById("status").innerHTML = status[i];
+            document.getElementById("about").innerHTML = name[i] + about[i];
+        }
+    </script>
+</body>
 </html>
