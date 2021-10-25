@@ -30,7 +30,7 @@ body {
     background: #032340;
     margin: 2px 50px;
     border-radius: 50%;
-    border: 3px solid #021526;
+    border: 3px solid #283a49;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .image:hover {
-    border: 3px solid #b8d5e7;
+    border: 3px solid #fff;
 }
 
 img{
@@ -92,10 +92,6 @@ img{
     padding: 0px 20px;
 }
 
-
-box{
-    background: #fcfcfc;
-}
 
 footer {
     background: #021526;
@@ -152,13 +148,13 @@ footer {
 }
 
 .socials a:hover i{
-    color: aqua;
+    color: #89BAD9;
 }
 
 .footer-bottom {
-    background: #000;
+    background: #032340;
     width: 100vw;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
