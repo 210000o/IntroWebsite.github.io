@@ -4,6 +4,11 @@ Overall Look and Feel of Intro
 
 Colours
 -------
+#0402959
+#08428C
+#032340
+#021526
+#89BAD9
 
 Iconography
 -----------

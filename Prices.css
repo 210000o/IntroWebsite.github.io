@@ -2,14 +2,14 @@
 
 
 body{
-    background-color: #808080;
+    background-color: #dcdcdc;
     margin: 0;
 }
 
 /*Navigation Bar*/
 
 #topBar{
-    background-color: #ffa07a;
+    background-color: #89BAD9;
     z-index: 1;
     top: 0px;
     border: 1px;
@@ -36,7 +36,7 @@ body{
 .topBarLinks a {
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
-    color: #536878;
+    color: white;
     font-weight: 300;
     text-decoration: none;
     position: relative;
@@ -53,7 +53,7 @@ body{
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #536878;
+    background: white;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
     
@@ -65,7 +65,7 @@ body{
   }
 
 .topBarLinks a:hover {
-    color: #536878;
+    color: white;
     text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
     
 }
@@ -75,12 +75,12 @@ body{
     text-align: center;
     font-size: 80px;
     font-family: 'Poppins', sans-serif;
-    color: #FF00FF;
+    color: #08428C;
     font-weight: 900;
     letter-spacing: 0.1em;
     text-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
     margin: 20px;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.5px #021526;
 }
 
 /*Actual Prices Section*/
@@ -92,16 +92,16 @@ body{
     width: 29.3%;
     height: 20%;
     margin: 2% 2% 2% 2%;
-    outline: 12px outset #ffa07a;
+    outline: 8px outset #042959;
     margin-bottom: 2%;
-    box-shadow: 10px 10px 10px  rgb(0 0 0 / 40%);
-    background-color: #696969
+    box-shadow: 18px 18px 15px  rgb(0 0 0 / 40%);
+    background-color: #08428C
 }
 
 .priceContainer h2{
     position:relative;
     text-align: center;
-    color: #FF00FF;
+    color: #89BAD9;
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -144,21 +144,21 @@ padding: 0 0 70 0;
     position: relative;
     top: -35px;
     right: 9px;
-    width: 300px;
+    width: 250px;
 }
 
 .aThird{
     position: relative;
     top: -15;
     right: 8px;
-    width: 300px;
+    width: 250px;
 }
 
 #productReminder{
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    color: white;
+    color: #021526;
     position:relative;
     left: -810px;
     padding-top: 0px;   
@@ -166,7 +166,7 @@ padding: 0 0 70 0;
 
 #productReminder a{
     text-decoration: none;
-    color: white;
+    color: blue;
 }
 
 #productReminder a:hover{
@@ -174,7 +174,7 @@ padding: 0 0 70 0;
 }
 
 #productReminder a:after{
-    color:white;
+    color: blue;
 }
 
 /*More Info Section*/
@@ -189,8 +189,8 @@ padding: 0 0 70 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     letter-spacing: 1px;
-    color: #FF00FF;
-    -webkit-text-stroke: 0.1px black;
+    color: #08428C;
+    -webkit-text-stroke: 0.1px #021526;
     position: relative;
     left: 20px;
     padding-top: 10px;
@@ -201,13 +201,13 @@ padding: 0 0 70 0;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    color: white;
+    color: #0842BC;
     position:relative;
     left: 30px;
 }
 
 #moreInfoSection h3:hover{
-    color: black;
+    color: #89BAD9;
 }
 
 #moreInfoSection hr{
@@ -218,15 +218,19 @@ padding: 0 0 70 0;
     margin-top: 0px;
 }
 
-.open{
+#moreInfoSection span{
     position: relative;
     float: right;
     padding-right: 800;
 }
 
-.closed{
-    position: relative;
-    float: right;
+.info{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #0842BC;
+    position:relative;
+    left: 30px; 
 }
 
 div.section.collapsed p{
@@ -254,7 +258,7 @@ footer{
 }
 
 #bottomBar{
-    background-color: #ffa07a;
+    background-color: #89BAD9;
 }
 
 #bottomBarContainer{
