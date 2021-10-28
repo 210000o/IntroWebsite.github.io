@@ -127,7 +127,7 @@ nav.hide{
   -webkit-text-fill-color: transparent;
   animation: gradient 10s ease infinite;
   height: 40vh;
-  filter: drop-shadow(6px 4px rgb(0 0 0 / 45%));
+  filter: drop-shadow(4px 5px rgb(0 0 0 / 45%));
   letter-spacing: 0.1em;
 }
 
@@ -166,7 +166,9 @@ nav.hide{
   color: white;
   background-repeat: no-repeat;
   text-align: center;
+  justify-content: center;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .text_desc1 {
@@ -177,8 +179,9 @@ nav.hide{
   word-spacing: 10px;
   position: relative;
   z-index: 9;
-  min-width: 1500px;
-  transform: translateY(280px);
+  width: 100%;
+  transform: translateY(200px);
+  text-shadow: 2px 3px rgb(0 0 0 / 45%);
 }
 
 .text_desc2 {
@@ -187,10 +190,11 @@ nav.hide{
   font-size: 30px;
   position: relative;
   z-index: 9;
-  transform: translateY(350px);
-  min-width: 1500px;
+  transform: translateY(240px);
+  width: 100%;
   letter-spacing: 5px;
   word-spacing: 10px;
+  text-shadow: 1px 2px rgb(0 0 0 / 45%);
 }
 
 .text_desc3 {
@@ -198,43 +202,82 @@ nav.hide{
   font-weight: 300;
   font-size: 30px;
   position: relative;
-  min-width: 1500px;
+  width: 100%;
   z-index: 9;
-  transform: translateY(380px);
+  transform: translateY(270px);
   letter-spacing: 5px;
   word-spacing: 10px;
+  text-shadow: 1px 2px rgb(0 0 0 / 45%);
+}
+
+.clickhere_btn{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  display:inline-block;
+  transform: translateY(360px);
+  z-index: 10;
+  width: 100%;
+}
+
+.btn{
+  font-size: 25px;
+  font-weight: 200;
+  transition: 0.5s ease-in-out;
+  border: 2px solid white;
+  padding: 10px;
+  padding-inline: 20px;
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+
+
+.btn:hover {
+  background-color: #f21170;
+  z-index: 10;
+  font-weight: 600;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover::after {
+  left: -100%;
+}
+
+.btn:hover {
+  border: 2px solid #f21170;
 }
 
 .border1 {
   height: 500px;
-  width: 1100px;
-  position: absolute;
+  width: 1070px;
+  position: relative;
   margin: auto;
   border-radius: 10px;
   border: 6px solid white;
   color: transparent;
-  transform: translate(150px,50px)
-
+  transform: translate(-25px,-50px);
 }
 
 .border2 {
   height: 600px;
   width: 980px;
-  position: absolute;
+  position: relative;
   margin: auto;
   border: 6px solid white;
   color: transparent;
-  transform: translate(240px,15px);
+  transform: translate(-10px,-590px);
   border-radius: 10px;
 }
 
 .border_overlay {
-  height: 488px;
+  height: 487px;
   width: 968px;
-  position: absolute;
+  position: relative;
   margin: auto;
   background-color: rgb(0 0 0 / 50%);
-  transform: translate(246px,56px);
+  transform: translate(-10px,-1142px);
   z-index: 8;
 }
 
@@ -289,12 +332,12 @@ footer {
   color: #fff;
 }
 
-.socials a i{
+.socials a{
   font-size: 1.1rem;
   transition: color .4s ease;
 }
 
-.socials a:hover i{
+.socials a:hover{
   color: #89BAD9;
 }
 
