@@ -145,17 +145,58 @@ nav.hide{
   }
 }
 
+.slogan_container{
+  text-align:center;
+}
+
 .main_slogan {
-  position: relative;
-  cursor: default;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 180px;
-	font-size: 25px;
-	letter-spacing: 0.05em;
-  font-weight: 200;
-  color: white;
+  color:white;
+  font-family:'Source Sans Pro';
+  font-weight:300;
+  font-size:32px;
+  padding-top:40vh;
+  height:100vh;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  text-shadow: 2px 1px rgb(0 0 0 / 45%);
+  transform: translate(-10px,-100px);
+}
+
+.main_slogan:first-of-type { 
+  animation: showup 7s infinite;
+}
+
+.main_slogan:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+.main_slogan:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:575px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:575px;}
 }
 
 /* DESCRIPTION SECTION */
@@ -223,16 +264,16 @@ nav.hide{
 
 .btn{
   font-size: 25px;
-  font-weight: 200;
+  font-weight: 300;
   transition: 0.5s ease-in-out;
   border: 2px solid white;
   padding: 10px;
   padding-inline: 20px;
   overflow: hidden;
   transition: all 300ms ease;
+  text-shadow: 1px 2px rgb(0 0 0 / 45%);
+
 }
-
-
 
 .btn:hover {
   background-color: #f21170;
