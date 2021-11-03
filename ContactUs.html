@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,800&display=swap" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar" style="background-color: #021526;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="ContactUs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+      integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav class="navbar" style="background-color: #021526">
         <div class="navbar_container">
-          <a href="index.html"><img id="navbar_logo" src="images/IntroLogo.png"></a>
+          <a href="index.html"
+            ><img id="navbar_logo" src="images/IntroLogo.png"
+          /></a>
           <ul class="navbar_links">
             <li><a href="products.html" id="navbar_product">Product</a></li>
             <li><a href="Prices.html" id="navbar_prices">Prices</a></li>
@@ -22,63 +35,55 @@
           </ul>
         </div>
       </nav>
-    <div class="container">
-        <h1>Connect With Us</h1>
-        <p>We would love to respond to your queries and help you succeed. <br>Feel free to reach out to us!</p>
-    </div>
-    <div class="contact-box">
-        <div class="contact-left">
-            <h3>Send your request</h3>
-            <form>
-                <div class="input-row">
-                    <div class="input-group">
-                        <label>Name</label>
-                        <input type="text" placeholder="Enter Name">
-                    </div>
-                    <div class="input-group">
-                        <label>Phone</label>
-                        <input type="text" placeholder="+1 232 424 2332">
-                    </div>
-                </div>
-                <div class="input-row">
-                    <div class="input-group">
-                        <label>Email</label>
-                        <input type="email" placeholder="myemail@gmail.com">
-                    </div>
-                    <div class="input-group">
-                        <label>Subject</label>
-                        <input type="text" placeholder="Subject">
-                    </div>
-                </div>
+      <h1 class="heading">Contact Us</h1>
+      <section class="location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5600.693455299063!2d-75.68705965553461!3d45.42251148989453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce050a6db98d73%3A0x188a59c3622fdbae!2sUniversity%20of%20Ottawa!5e0!3m2!1sen!2sca!4v1635165675824!5m2!1sen!2sca"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
 
-                <label>Message</label>
-                <textarea rows="5" placeholder="Your Message"></textarea>
-                
-                <button type="submit">Send</button>
+      <section class="contact-us">
+        <div class="row">
+          <div class="contact-col">
+            <div>
+              <i class="bi bi-house"></i>
+              <span>
+                <h5>75 Laurier Ave. E</h5>
+                <p>Ottawa, ON K1N 6N5</p>
+              </span>
+            </div>
+            <div>
+              <i class="bi bi-phone"></i>
+              <span>
+                <h5>+1 613-500-2900</h5>
+                <p>Monday to friday, 10AM to 6PM</p>
+              </span>
+            </div>
+            <div>
+              <i class="bi bi-envelope"></i>
+              <span>
+                <h5>intro@uottawa.ca</h5>
+                <p>Email us</p>
+              </span>
+            </div>
+          </div>
+          <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required />
+                <input type="email" placeholder="Enter email address" required />
+                <input type="text" placeholder="Enter your subject" required />
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="button">Send Message</button>
             </form>
+          </div>
         </div>
-        <div class="contact-right">
-            <h3>Reach us</h3>
-            <table>
-                <tr>
-                    <td>Email</td>
-                    <td>contactus@email.com</td>
-                </tr>
-                <tr>
-                    <td>Phone</td>
-                    <td>+1 213 132 9842</td>
-                </tr>
-                <tr>
-                    <td>Address</td>
-                    <td>University Centre Map, 85 University Street<br>
-                    Somewhere in the World<br>
-                    Room 307, Ottawa, ON, K1N 6N5
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <footer>
+      </section>
+      <footer>
         <div class="footer-content">
             <h3>Intro</h3>
             <p>Your one-stop shop for logo designs and video editing.</p>
@@ -94,6 +99,6 @@
             <p>Copyright &copy;2021 Intro. designed by <span>IntroTeam</span></p>
         </div>
     </footer>
-</body>
+    </section>
+  </body>
 </html>
-<!--- The person who was in charge of making this page dropped out, letting us know Sunday. Therefore, this page is not entirely complete-->
