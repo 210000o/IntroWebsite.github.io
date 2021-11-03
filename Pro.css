@@ -1,3 +1,13 @@
+body{
+  background-color: rgba(0, 0, 0, 0.507);
+  background: transparent;
+   background-image: url(https://mocah.org/uploads/posts/962490-digital-digital-art-artwork-illustration-minimalism.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+
+
 
 * {
   box-sizing: border-box;
@@ -88,13 +98,130 @@
 .navbar_links a:hover {
   text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
 }
-.search{
+.Header{
+  font-family: cursive;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+  
+}
+.search-box{
 font-family: cursive;
 font-size: 22px;
 text-align: center;
+padding-left: 300px;
+position: relative;
+bottom: 122px;
+right: 622px;
 }
 input[type=text]{
 align-items: center;    
 width: 139px;
 height: 32px;
+}
+.P1{
+padding-left: 100px;
+color: #fff;
+
+
+}
+.rating{
+  color: orange;
+}
+.P2{
+  padding-left: 70%;
+ padding-bottom: 100%;
+display: block;
+color: #fff;
+position: relative;
+bottom: 712px;
+right: 30px;
+}
+.t1{
+  font-size: 2rem;
+  font-family: sans-serif;
+  position:relative;
+  left: 22px;
+  bottom: 1rem;
+  text-shadow: 3px 2px #000000;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+
+}
+.t11{
+  font-size: 1rem;
+  font-family: cursive; 
+  position:relative;
+  left: 22px;
+  top: 1rem;
+  color: antiquewhite;
+  font-weight: 600;
+}
+.t2{
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  position:relative;
+  left: 22px;
+  bottom: 1rem;
+  text-shadow: 3px 2px #000000;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+  .p3{
+    padding-left: 70%;
+  display: block;
+  color: #fff;
+  position: relative;
+  bottom: 2112px;
+  right: 922px;
+  }
+  .t3{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    left: 22px;
+    bottom: 1rem;
+    text-shadow: 3px 2px #000000;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;s
+  }
+  .t2{
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  position:relative;
+  left: 22px;
+  bottom: 1rem;
+  text-shadow: 3px 2px #000000;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.t33{
+  font-size: 1rem;
+  font-family: cursive; 
+  position:relative;
+  left: 22px;
+  top: 1rem;
+  color: antiquewhite;
+  font-weight: 600;
+}
+.p4{
+  color: #fff;
+  position:relative;
+  left: 800px;
+  bottom: 2700px;
+}
+.tv{
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  position:relative;
+  left: 22px;
+  bottom: 5rem;
+  text-shadow: 3px 2px #000000;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+
+}
+.p44{
+
+padding-top: 49px;
+  
 }
