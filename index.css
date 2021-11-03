@@ -382,22 +382,22 @@ footer {
   color: #89BAD9;
 }
 
-.footer-bottom {
+.footer_bottom {
   background: #032340;
   width: 100vw;
   padding: 15px 0;
   text-align: center;
 }
 
-.footer-bottom p{
+.footer_bottom p{
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
 }
 
-.footer-bottom span{
+.footer_bottom span{
   text-transform: uppercase;
   opacity: .4;
   font-weight: 200;
-  color: #fff
+  color: white;
 }
