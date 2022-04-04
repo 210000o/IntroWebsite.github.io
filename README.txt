@@ -14,4 +14,4 @@ thealexand
 
 GitHub Pages Link
 Name: IntroWebsite
-Link: https://github.com/IntroWebsite
+https://introwebsite.github.io/
